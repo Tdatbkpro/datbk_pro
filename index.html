@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ĐẠT BK <3 MU </title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/infor.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./assets/fonts/fontawesome-free-6.4.0-web/css/all.min.css">
+    
+</head>
+<body>
+    <div class="app">
+         <header class="header">
+            <div class="grid">
+                <nav class="header__navbar">
+                        <ul class="header__navbar-list">
+                            <li class="header__navbar-item header__navbar-item--has-qr header__navbar-item--separate">
+                                Mời bạn vào trang tin tức của ĐẠT-BK
+                                <div class="header__qr">
+                                    <img src="./assets/img/QR-HUST.jpg" alt="QR-code" class="header__qr-img">
+                                    <div class="header__qr-app">
+                                        <a href="" class="header__qr-link" style="margin-left: 8px;">
+                                            <img src="./assets/img/gg-play.png" alt="gg-play" class="header__qr-dowload-img">
+                                        </a>
+                                        <a href="" class="header__qr-link" style="margin-right: 8px;">
+                                            <img src="./assets/img/app-store.png" alt="app-store" class="header__qr-dowload-img">
+                                        </a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="header__navbar-item ">
+                                <span class="header__navbar-title--no-pointer">Kết nối :</span>
+                                <a href="https://www.facebook.com/DatManucian2206/" target=”_blank” class="header__navbar-icon-link">
+                                    <i class="header__navbar-icon fa-brands fa-facebook"></i>
+                                </a>
+                                <a href="https://www.instagram.com/dat_manucian_8/" target=”_blank” class="header__navbar-icon-link">
+                                    <i class="header__navbar-icon fa-brands fa-instagram"></i>
+                                </a>
+                            </li>
+                        </ul>
+    
+                        <ul class="header__navbar-list">
+                            <li class="header__navbar-item">
+                                <a href="" class="header__navbar-item-link">
+                                    <i class="header__navbar-icon fa-solid fa-bell"></i>
+                                    Thông báo
+                                </a>
+                            </li>
+                            <li class="header__navbar-item">
+                                <a href="" class="header__navbar-item-link">
+                                    <i class="header__navbar-icon fa-light fa-regular fa-circle-question"></i>
+                                    Trợ giúp</a>
+                            </li>
+                            <!-- <li class="header__navbar-item header__navbar-item--strong header__navbar-item--separate">Đăng ký</li>
+                            <li class="header__navbar-item header__navbar-item--strong">Đăng nhập</li> -->
+                            <li class="header__navbar-item header__navbar-user">
+                                <img src="./assets/img/dat_deptrai.jpg" alt="" class="header__navbar-user-img">
+                                <span class="header__navbar-user-name">Trần Quốc Đạt</span>
+                                <ul class="header__navbar-user-menu">
+                                    <li class="header__navbar-user-item">
+                                        <a href="">Tài khoản của tôi</a>
+                                    </li>
+                                    <li class="header__navbar-user-item">
+                                        <a href="">Địa chỉ của tôi</a>
+                                    </li>
+                                    <li class="header__navbar-user-item">
+                                        <a href="">Đăng xuất</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                </nav>
+
+                <!-- Header with search -->
+                <div class="header-with-search">
+                    <div class="header__logo">
+                         <img src="https://www.manutd.com/en" alt="" class="header__logo-img">
+                    </div>
+                    <div class="header__search">
+                        <div class="header__search-input-wrap">
+                            <input type="text" class="header__search-input" placeholder="Tìm kếm đê nào !!!">  
+                              <!-- Search History -->
+                        <div class="header__search-history">
+                            <h3 class="header__search-history-heading">Lịch sử tìm kiếm</h3> 
+                            <ul class="header__search-history-list">
+                                <li class="header__search-history-item">
+                                    <a href="">Kỹ thuật máy tính</a>
+                                </li>
+                                <li class="header__search-history-item">
+                                    <a href="">Đaị học bách khoa Hà Nội</a>
+                                </li>
+                                <li class="header__search-history-item">
+                                    <a href="">Manchester United có vé tham dự Champion League</a>
+                                </li>
+                            </ul>  
+                        </div>
+                        </div>
+                        
+                        <div class="header__search-select">
+                            <span class="header__search-select-label">Ấn vô</span>
+                            <i class="header__search-select-icon fa-solid fa-chevron-down"></i>
+
+                            <ul class="header__search-option">
+                                <li class="header__search-option-item header__search-option-item--active">
+                                    <span>
+                                        Trong page
+                                    </span>
+                                    <i class="fa-solid fa-check"></i>
+                                </li>
+                                <li class="header__search-option-item">
+                                    <span>
+                                        Ngoài page
+                                    </span>
+                                    <i class="fa-solid fa-check"></i>
+                                </li>
+                            </ul>
+                        </div>  
+                        <button class="header__search-btn">
+                            <i class="header__search-btn-icon fa-sharp fa-solid fa-magnifying-glass"></i>
+                        </button>
+                    </div>
+
+                <!-- Cart -->
+                    <div class="header__cart">
+                        <div class="header__cart-icon-wrap">
+                            <i class="header__cart-icon fa-solid fa-school"></i>
+                            <span class="header__cart-notice">!</span>
+
+                            <!-- No cart  header__cart-list--no-cart -->
+                            <div class="header__cart-list header__cart-list--no-cart">
+                                <img src="./assets/img/logo-soict-hust-1.png" alt="" class="header__cart-list--no-cart-img">
+                                <span class="header__cart-list-no-cart-msg">Trường CNTT & TT</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    
+
+                    <div class="header__information">
+                        <div class="header__information-icon-wrap">
+                            <i class="header__information-icon fa-solid fa-image-portrait "></i>
+                <!-- header__information-list--no-information -->
+                            <div class="header__information-list ">
+                                <h4 class="header__imformation-heading">Thông tin về tôi</h4>
+                                <ul class="header__imformation-list-item">
+                                    <li class="header__imformation-item">
+                                        <img src="./assets/img/dat_deptrai.jpg" class="header__imformation-img" alt=""> 
+                                        <div class="header__imformation-item-infor">
+                                            <div class="header__information-item-head">
+                                                <h5 class="header__imformation-item-name">Trần Quốc Đạt</h5>
+                                                <span class="header__imformation-item-nick-name">Biệt danh (Chuối)</span>
+                                            </div>
+                        
+                                            <div class="header__imformation-item-body">
+                                                <span class="header__imformation-item-title">
+                                                Họ và tên
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+
+                                <ul class="header__imformation-list-item">
+                                    <li class="header__imformation-item">
+                                        <i class="fa-solid fa-cake-candles header__imformation-img" style="padding: 0;"></i>   
+                                        <div class="header__imformation-item-infor">
+                                            <div class="header__information-item-head">
+                                                <h5 class="header__imformation-item-name">22/06/2004</h5>
+                                                <span class="header__imformation-item-nick-name">Cung : Cự Giải</span>
+                                            </div>
+                        
+                                            <div class="header__imformation-item-body">
+                                                <span class="header__imformation-item-title">
+                                                Ngày sinh
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+
+                                <button class="header__imformation-dong btn btn--primary">Đóng</button>
+                            </div>
+                    </div>
+                </div>
+            </div>
+         </header>
+
+         <div class="app__container">
+            <div class="grid">
+                <div class="grid__row app__content">
+                    <div class="grid__column-2">
+                        <nav class="category">
+                            <h3 class="category__heading">
+                                <i class="category__heading-icon fa-solid fa-list "></i>
+                                Danh mục 
+                            </h3>
+                            <ul class="category-list">
+                                <li class="category-item category-item--active">
+                                    <a href="" class="category-item__link">Thời sự</a>
+                                </li>
+                                <li class="category-item">
+                                    <a href="" class="category-item__link">Thế giới</a>
+                                </li>
+                                <li class="category-item">
+                                    <a href="" class="category-item__link">Thể thao</a>
+                                </li>
+                                <li class="category-item">
+                                    <a href="" class="category-item__link">Học tập</a>
+                                </li>
+                                <li class="category-item">
+                                    <a href="" class="category-item__link">Giải trí</a>
+                                </li>
+                                <li class="category-item">
+                                    <a href="" class="category-item__link">MY MANCHESTER UNITED</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>  
+                    
+                    <div class="grid__column-10">
+                        <div class="home-filter">
+                            <span class="home-filter__label">Sắp xếp theo</span>
+                                <button class="home-filter__btn btn">Tin Hot</button> 
+                                <button class="home-filter__btn btn btn--primary">Mới Nhất</button>
+                                <button class="home-filter__btn btn">Liên Quan</button>
+                            
+                            
+                            <div class="seclect-input">
+                                <span class="seclect-input__label">Lọc</span>
+                                <i class="seclect-input__icon fa-solid fa-chevron-down"></i>
+                                <ul class="seclect-input__list">
+                                    <li class="seclect-input__item">
+                                        <a href="" class="seclect-input__link ">
+                                            Thời gian
+                                            <div class="Dat_hy">
+                                                <ul class="seclect-input__list1">
+                                                
+                                                    <li class="seclect-input__item1">
+                                                        <a href="" class="seclect-input__link1">1 ngày trước</a>              
+                                                    </li>
+                                                    <li class="seclect-input__item1">
+                                                        <a href="" class="seclect-input__link1">1 tháng trước</a>
+                                                    </li>
+                                                    <li class="seclect-input__item1">
+                                                        <a href="" class="seclect-input__link1">1 năm trước</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </a>              
+                                    </li>
+                                    <li class="seclect-input__item">
+                                        <a href="" class="seclect-input__link">
+                                            Chuyên mục
+                                            <div class="Dat_hy">
+                                                <ul class="seclect-input__list1">
+                                                
+                                                    <li class="seclect-input__item1">
+                                                        <a href="" class="seclect-input__link1">Thời sự</a>              
+                                                    </li>
+                                                    <li class="seclect-input__item1">
+                                                        <a href="" class="seclect-input__link1">Thế giới</a>
+                                                    </li>
+                                                    <li class="seclect-input__item1">
+                                                        <a href="" class="seclect-input__link1">Học tập</a>
+                                                    </li>
+                                                    <li class="seclect-input__item1">
+                                                        <a href="" class="seclect-input__link1">Thể thao</a>
+                                                    </li>
+                                                    <li class="seclect-input__item1">
+                                                        <a href="" class="seclect-input__link1">Giải trí</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="seclect-input__item">
+                                        <a href="" class="seclect-input__link">
+                                            Dạng bài
+                                            <div class="Dat_hy">
+                                                <ul class="seclect-input__list1">
+                                                
+                                                    <li class="seclect-input__item1">
+                                                        <a href="" class="seclect-input__link1">Bài viết</a>              
+                                                    </li>
+                                                    <li class="seclect-input__item1">
+                                                        <a href="" class="seclect-input__link1">Ảnh</a>
+                                                    </li>
+                                                    <li class="seclect-input__item1">
+                                                        <a href="" class="seclect-input__link1">Video</a>
+                                                    </li>
+                                                    <li class="seclect-input__item1">
+                                                        <a href="" class="seclect-input__link1">Chủ đề</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            
+
+
+
+                            <div class="home-filter__page">
+                                <span class="home-filter__page-num">
+                                    <span class="home-filter__page-current">1</span>/10
+                                </span>
+
+                                <div class="home-filter__page-control">
+                                    <a href="" class="home-filter__page-btn home-filter__page-btn--disable">
+                                        <i class="home-filter__page-icon fa-solid fa-chevron-left"></i>
+                                        
+                                    </a>
+                                    <a href="" class="home-filter__page-btn">
+                                        <i class="home-filter__page-icon fa-solid fa-chevron-right"></i>
+                                        
+                                    </a>
+                                </div>
+                            </div>
+                        </div>   
+                    </div>
+            </div>   
+        </div>
+        </div>
+
+            <footer class="footer">
+
+            </footer>
+        </div>
+
+    <!-- <div class="modal">
+        <div class="modal__overlay"></div>
+        <div class="modal__body"> -->
+  
+
+            <!--Regiter Form -->
+                <!-- <div class="auth-form">
+                    <div class="auth-form__container">
+                        <div class="auth-form__header">   
+                            <h3 class="auth-form__heading">Đăng ký</h3>
+                            <span class="auth-form__switch-btn">Đăng nhập</span>
+                        </div>
+                    <div class="auth-form__form">
+                        <div class="auth-form__group">
+                            <input type="text" class="auth-form__input" placeholder="Email của bạn">
+                        </div>
+                        <div class="auth-form__group">
+                            <input type="password" class="auth-form__input" placeholder="Mật khẩu của bạn">
+                        </div>
+                        <div class="auth-form__group">
+                            <input type="password" class="auth-form__input" placeholder="Nhập lại mật khẩu">
+                        </div>
+                    </div>
+
+                    <div class="auth-form-aside">
+                        <p class="auth-form__policy-text">
+                            Bằng việc đăng ký, bạn đồng ý với DAT-Shop về
+                            <a href="" class="auth-form__policy-link">Điều khoản dịch vụ</a> &
+                            <a href="" class="auth-form__policy-link">Chính sách bảo mật</a>
+                        </p>
+                    </div>
+                    <div class="auth-form__controls">
+                        <button class="btn btn--normal auth-form__control-back">TRỞ LẠI</button>
+                        <button class="btn btn--primary">ĐĂNG KÝ</button>
+                    </div>
+                </div>
+                <div class="auth-form__socials">
+                    <a href="" class="btn auth-form__socials--facebook btn--size-s btn--with-icon">
+                        <i class="auth-form__controls-icon fa-brands fa-square-facebook"></i>
+                        <span class="auth-form__socials-title">Kết nối với Facebook</span>
+                    </a>
+                    <a href="" class="btn auth-form__socials--google btn--size-s btn--with-icon">
+                        <i class="auth-form__controls-icon fa-brands fa-google"></i>
+                        <span class="auth-form__socials-title">Kết nối với Google</span>
+                    </a>
+                </div>
+            </div> -->
+
+             <!--Login Form -->
+             <!-- <div class="auth-form">
+                <div class="auth-form__container">
+                    <div class="auth-form__header">   
+                        <h3 class="auth-form__heading">Đăng Nhập</h3>
+                        <span class="auth-form__switch-btn">Đăng Ký</span>
+                    </div>
+                <div class="auth-form__form">
+                    <div class="auth-form__group">
+                        <input type="text" class="auth-form__input" placeholder="Email của bạn">
+                    </div>
+                    <div class="auth-form__group">
+                        <input type="password" class="auth-form__input" placeholder="Mật khẩu của bạn">
+                    </div>
+                </div>
+
+                <div class="auth-form-aside">
+                    <div class="auth-form__help">
+                        <a href="" class="auth-form__help-link auth-form__help-forgot">Quên mật khẩu</a>
+                        <span class="auth-form__help-separate"></span>
+                        <a href="" class="auth-form__help-link">Cần trợ giúp ?</a>
+                    </div>
+                </div>
+                <div class="auth-form__controls">
+                    <button class="btn btn--normal auth-form__control-back">TRỞ LẠI</button>
+                    <button class="btn btn--primary">ĐĂNG NHẬP</button>
+                </div>
+            </div>
+            <div class="auth-form__socials">
+                <a href="" class="btn auth-form__socials--facebook btn--size-s btn--with-icon">
+                    <i class="auth-form__controls-icon fa-brands fa-square-facebook"></i>
+                    <span class="auth-form__socials-title">Kết nối với Facebook</span>
+                </a>
+                <a href="" class="btn auth-form__socials--google btn--size-s btn--with-icon">
+                    <i class="auth-form__controls-icon fa-brands fa-google"></i>
+                    <span class="auth-form__socials-title">Kết nối với Google</span>
+                </a>
+            </div>
+        </div> -->
+        </div>
+    </div>
+</body>
+</html>
